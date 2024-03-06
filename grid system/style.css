@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+}
+.container{
+   display: grid;
+   grid-template-columns:200px 300px auto;
+   column-gap:10px;
+   row-gap:10px;
+}
+.para{
+    padding: 1rem;
+    background-color: blueviolet;
+   
+    color: white;
+}

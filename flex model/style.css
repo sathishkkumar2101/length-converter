@@ -1,0 +1,23 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: darkslategrey;
+  color: white;
+}
+
+.one {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+ 
+  
+}
+img {
+  margin: 5px;
+ width: 200px;
+ flex-grow: 1;
+ flex-basis: 35%;
+
+ 
+}

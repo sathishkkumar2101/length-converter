@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Length Converter</title>
+  </head>
+  <body>
+    <input id="inch" value="10" />
+    <button onclick="convertInchToCm()">Convert to cm</button>
+    <p id="result">Result</p>
+
+    <script>
+      var inch = document.getElementById("inch");
+      var result = document.getElementById("result");
+
+      function convertInchToCm() {
+        var inchValue = Number(inch.value);
+        var cmValue = inchValue * 2.54;
+        result.textContent = cmValue;
+      }
+    </script>
+  </body>
+</html>

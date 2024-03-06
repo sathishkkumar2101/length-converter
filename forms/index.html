@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            width:200px;
+            display: inline-block;
+        }
+        .c1{
+            background-color: yellow;
+            width: 400px;
+            border-radius: 10px;
+            padding: 15px 10px 15px 10px;
+            margin-: 20px;
+        }
+    </style>
+</head>
+<body>
+   <form action="" method="get" enctype="multipart/form-data">
+    <div class="c1">
+        <label for="user name">user name:</label>
+        <input type="text" name="user name"  maxlength="10" required>
+    </div>
+   <div>
+    <label for="password">password:</label>
+    <input type="password" name="password"  minlength="7" required>
+  
+   </div>
+   <div>
+    <label for="">age</label>
+    <input type="range" min="1" max="10">
+   
+   </div>
+   <div>
+    <label >date of birth:</label>
+    <input type="month" name="dateofbirth" maxlength="4">
+   </div>
+   <div>
+    <label >email:</label>
+    <input type="email" name="email">
+   </div>
+   <div>
+    <label >age:</label>
+    <input type="number" name="age" max="30" step="5" placeholder="enter age" required autocomplete="">
+   </div>
+   <div>
+    <input type="checkbox" name="checkbox" style="color: blue;" >
+    <label >sms alert</label>
+   </div>
+   <div>
+    <input type="radio" name="gender"  id="male" value="male">
+    <label  for="male">male</label>
+
+   </div>
+   <div>
+    <input type="radio" name="gender"  id="female" value="female">
+    <label  for="female">female</label>
+
+   </div>
+   <label for="">about</label>
+   <textarea name="about"  cols="30" rows="10"></textarea>
+   <div>
+    <select name="state" id="state">
+        <option value="tamilnadu">tamilnadu</option>
+        <option value="ap">Ap</option>
+        <option value="kerala">Kerala</option>
+    </select>
+</div>
+<div>
+    <input type="tel">
+</div>
+<div>
+    <input type="color">
+</div>
+<div>
+    <input type="hidden">
+</div>
+<div>
+    <input type="file">
+</div>
+<div>
+    
+</div>
+<input type="image" src="">
+   <button type="submit">
+    
+    sign up
+   </button>
+   <button type="reset">reset</button>
+     </form>
+    
+</body>
+</html>

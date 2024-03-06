@@ -1,0 +1,66 @@
+/* h1,h2{ */
+    /* color:rgb(255,25,2);
+    color: #234567;
+    color: hsla(100, 100, 100,0.7);
+    background-color: rgba(255, 0, 0,0.6);
+} */
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* normal size 16px or 100% or 1em */
+    font-size: 16px;
+}
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: extra-expanded;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.35em;
+    vertical-align: top;
+}
+p{
+    line-height:2em
+    
+    ;
+    text-align: justify;
+    text-indent: 50px;
+    /* text-shadow: 2px 2px 20px red; */
+    /* first val-letf or right shadow
+    second val-top or bottom shadow
+    third val-glar */
+
+}
+p::first-letter{
+    font-size: 2em;
+}
+p::first-line
+{
+    font-size: 2em;
+}
+/* order should be same */
+/* active color */
+a:link
+{
+    color: blue;
+}
+/* visited link */
+a:visited
+{
+    color: yellow;
+}
+/* change color when curser touch */
+a:hover
+{
+    color: brown;
+}
+/* focus particular link */
+a:focus{
+    color: black;
+}
+/* active for fraction of time */
+a:active
+{
+    color: green;
+} 

@@ -1,0 +1,46 @@
+.one{
+    background-color: rgb(169, 100, 17);
+    width: 300px;
+    height: 500px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    }
+    #num1{
+    padding: 5px;
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 10px;
+    }
+    #num2{
+    padding: 5px;
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 10px;
+    }
+    #two{
+    padding: 5px;
+    margin-top: 10px;
+    width: 220px;
+    border-radius: 10px;
+    }
+    #three{
+    padding: 5px;
+    margin-top: 10px;
+    width: 220px;
+    color: brown;
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: large;
+    }
+    #result{
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+    }
+    h1{
+    color: white;
+    }

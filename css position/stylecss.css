@@ -1,0 +1,35 @@
+header {
+  width: auto;
+  height: 80px;
+  border: 3px solid red;
+  border-radius: 10px;
+  background-color: rgba(222, 184, 135, 0.267);
+}
+.one {
+  width: auto;
+  height: 200px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  margin-top: 2px;
+  background-image: url(https://source.unsplash.com/random/100%x100%/?bridge);
+}
+.two {
+  width: auto;
+  height: 250px;
+  border: 3px solid blueviolet;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+footer {
+  width: auto;
+  height: 80px;
+  border: 3px solid blue;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+article{
+
+}
+aside{
+    
+}

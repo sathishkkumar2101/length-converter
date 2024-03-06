@@ -1,0 +1,29 @@
+#login_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #ccc;
+    border: 1px solid #666;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#f1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.f1_label {
+    margin-bottom: 5px;
+    white-space: nowrap;
+}
+
+#f1 input[type="text"],
+#f1 input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #666;
+    border-radius: 3px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div class="one">
+      <h2>Palindrome Checker</h2>
+      <div>
+        <input  id="num" type="text" placeholder="Enter String" />
+      </div>
+
+      <div>
+        <button onclick="check()">Check</button>
+      </div>
+      <div id="result">
+
+      </div>
+    </div>
+    <script>
+
+function check()
+{
+    var n=document.getElementById("num").value
+    var result=document.getElementById("result")
+    n=n.toLowerCase()
+    n=n.trim()
+    if(n=='')
+    {
+        alert('please enter the string')
+    }
+n=n.split('')
+for(var i=0;i<=n.length;i++)
+{
+    if(n[i]==' '||n[i]=='!' || n[i]=='?'||n[i]=='@')
+    {
+       n.splice(i,1)
+        
+    }
+}
+n=n.join('')
+var n1=n.split('').reverse().join('')
+if(n===n1)
+{
+    result.innerHTML="Palindrome"
+}
+else{
+    result.innerHTML="Not a Palindrome"
+}
+
+   
+}
+    </script>
+  </body>
+</html>

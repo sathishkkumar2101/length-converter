@@ -1,0 +1,29 @@
+h1{
+    color: blue;
+    text-align:right;
+    }
+    #para{
+    color:brown;
+    font-family:'Times New Roman';
+    background-color:yellow;
+    background-image: url(table.jpeg);
+    background-repeat:repeat-y;
+    background-attachment: fixed;
+    
+    }
+    #text{
+    color: tomato;
+    }
+    div{
+    color: yellowgreen;
+    }
+    .cl
+    {
+        color: red;
+        text-align: center;
+        margin-top:5pt;
+    }
+    body{
+        background-color: yellow;
+        background-image: url(menu.jpeg);
+    }

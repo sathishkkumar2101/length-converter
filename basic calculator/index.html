@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="one">
+<div>
+<h1>Calculator</h1>
+</div>
+<div>
+<input id="num1" type="number" placeholder="enter the first number">
+</div>
+<div>
+<input id="num2" type="number" placeholder="enter the second number">
+</div>
+<select name="" id="two">
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="*">*</option>
+<option value="/">/</option>
+</select>
+<div>
+<button id="three" onclick="calculate()">Calculate</button>
+</div>
+<div id="result"></div>
+<script>
+function calculate()
+{
+var n1=Number(document.getElementById('num1').value)
+var n2=Number(document.getElementById('num2').value)
+var n
+var op=document.getElementById('two').value
+switch(op)
+{
+case '+':
+n=n1+n2
+break;
+case '-':
+n=n1-n2
+break;
+case '*':
+n=n1*n2
+break;
+case '/':
+if(n2==0)
+{
+alert("division can't perform")
+}
+n=n1/n2
+break;
+}
+var result=document.getElementById('result')
+result.innerHTML="Your Answer is " + n
+}
+</script>
+</div>
+</body>
+</html>

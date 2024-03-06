@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <form action="" >
+      <table>
+        <tr>
+          <td>name</td>
+          <td><input type="text" name="name" id="name" /></td>
+        </tr>
+        <tr>
+          <td>Age</td>
+          <td><input type="number" name="age" id="Age" /></td>
+        </tr>
+        <tr>
+          <td>No of Attempts</td>
+          <td>
+            <input type="number" name="No of Attempts" id="No_of_Attempts" />
+          </td>
+        </tr>
+       
+        
+        
+      </table>
+      <button onclick="create()">submit</button>
+    </form>
+      <script type="text/javascript">
+        function create() {
+            var a = Number(document.getElementById("Age").value);
+            var n = Number(document.getElementById("No_of_Attempts").value);
+            if(a<33 && n<6)
+            {
+              alert("You Are Eligible");
+            }
+          else
+            {
+              alert("You Are Not Eligible");
+            }
+        }
+      </script>
+    
+  </body>
+</html>
