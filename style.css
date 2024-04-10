@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-color: black;
+  background: linear-gradient(
+    100deg,
+    rgb(248, 248, 17),
+    rgb(240, 115, 198),
+    rgb(238, 10, 10)
+  );
+}
+.one {
+  width: 90%;
+  max-width: 470px;
+  margin: 20px auto 0;
+  background-color: aqua;
+  background: linear-gradient(aqua, blue);
+  /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  /* align-content:space-between; */
+  /* justify-content: end; * */
+  border-radius: 20px;
+  /* padding: 30px; */
+  text-align: center;
+}
+input {
+  border: 0;
+  outline: 0;
+  width: 300px;
+  height: 60px;
+  /* border: 1px solid white; */
+  border-radius: 30px;
+  padding-left: 20px;
+  font-size: larger;
+  color: #555;
+  /* margin: auto 5px; */
+  background-color: #ebfffc;
+}
+button {
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid aqua;
+  background-color: #ebfffc;
+
+  cursor: pointer;
+  margin: auto 5px;
+}
+/* button:hover{
+  background-color: blue;
+}  */
+.head {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* padding: 20px; */
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-top:50px;
+   */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 10px;
+}
+.last {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  font-size: larger;
+  font-family: "Courier New", Courier, monospace;
+}
+#humidity {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#wind {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#sun {
+  display: none;
+}

@@ -3,22 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Length Converter</title>
+    <!-- <meta http-equiv="refresh" content="2" /> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      
+    </style>
   </head>
   <body>
-    <input id="inch" value="10" />
-    <button onclick="convertInchToCm()">Convert to cm</button>
-    <p id="result">Result</p>
+    <div class="one">
+      <div class="head">
+        <input type="text" placeholder="Enter City Name" />
 
-    <script>
-      var inch = document.getElementById("inch");
-      var result = document.getElementById("result");
-
-      function convertInchToCm() {
-        var inchValue = Number(inch.value);
-        var cmValue = inchValue * 2.54;
-        result.textContent = cmValue;
-      }
-    </script>
+        <button><img src="images/search.png" style="width: 20px" /></button>
+      </div>
+      <div id="sun">
+        <img src="images/clear.png" class="weather-icon" />
+        <h2 class="temp">7°C</h2>
+        <h2 class="city">New York</h2>
+        <div class="last">
+          <div id="humidity">
+            <img src="images/humidity.png" alt="" width="50px" />
+            <div class="hum">
+              <p class="humi">48%</p>
+              <p style="margin: 5px 10px 5px 15px">Humidity</p>
+            </div>
+          </div>
+          <div id="wind">
+            <img src="images/wind.png" alt="" width="50px" />
+            <div class="wspeed">
+              <p class="speed">10.29 km/h</p>
+              <p style="margin: 5px 10px 5px 15px">Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <script src="script.js"></script>
   </body>
 </html>
