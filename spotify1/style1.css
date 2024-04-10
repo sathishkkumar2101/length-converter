@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+color: white;
+}
+
+@media  only screen and (max-width:600px)
+{
+    .container{
+        width: 260px;
+        height: 450px;
+        background-color: rgb(226, 12, 29);
+        border: 1px solid rgb(226, 12, 29) ;
+        margin: auto ;
+    margin-top: 50px;
+    border-radius: 5%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .container{
+        width: 400px;
+        height: 500px;
+        background-color: rgb(151, 226, 12);
+        border: 1px solid rgb(151, 226, 12);
+        margin: auto ;
+    margin-top: 50px;
+    border-radius: 5%;
+    }
+
+}
+@media only screen and (min-width: 992px) {
+    .container{
+        width: 500px;
+        height: 550px;
+        background-color: black;
+        border: 1px solid black;
+        margin: auto ;
+    margin-top: 50px;
+    border-radius: 5%;
+    } 
+}
